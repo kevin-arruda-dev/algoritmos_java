@@ -17,11 +17,11 @@ public class Q05AverageGrades {
         Scanner codeScanner = new Scanner(System.in);
 
         System.out.println("Enter the first grade value: ");
-        Double firstGradeValue = codeScanner.nextDouble();
+        double firstGradeValue = codeScanner.nextDouble();
         System.out.println("Enter the second grade value: ");
-        Double secondGradeValue = codeScanner.nextDouble();
+        double secondGradeValue = codeScanner.nextDouble();
 
-        Double averageGrades = (firstGradeValue + secondGradeValue) / 2;
+        double averageGrades = (firstGradeValue + secondGradeValue) / 2;
 
         System.out.println("Grade 1: " + firstGradeValue);
         System.out.println("Grade 2: " + secondGradeValue);
