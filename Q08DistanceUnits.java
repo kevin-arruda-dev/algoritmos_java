@@ -27,14 +27,14 @@ public class Q08DistanceUnits {
         Scanner codeScanner = new Scanner(System.in);
 
         System.out.println("Enter a distance in meters: ");
-        Double userValue = codeScanner.nextDouble();
+        double userValue = codeScanner.nextDouble();
 
-        Double userKm = userValue / 1000;
-        Double userHm = userValue / 100;
-        Double userDam = userValue / 10;
-        Double userDm = userValue * 10;
-        Double userCm = userValue * 100;
-        Double userMm = userValue * 1000;
+        double userKm = userValue / 1000;
+        double userHm = userValue / 100;
+        double userDam = userValue / 10;
+        double userDm = userValue * 10;
+        double userCm = userValue * 100;
+        double userMm = userValue * 1000;
 
         System.out.println("The distance of " + userValue + "m corresponds to: ");
         System.out.println(userKm + "Km");
