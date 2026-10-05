@@ -9,7 +9,6 @@ The predecessor of 9 is 8
 
 The successor of 9 is 10 */
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Q06PredecessorSuccessor {
