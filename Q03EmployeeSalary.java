@@ -22,7 +22,7 @@ public class Q03EmployeeSalary {
 
         System.out.println("Employee Name: " + employeeName);
         System.out.println("Salary: " + employeeSalary);
-        System.out.println("The employee " + employeeName + " has a salary of " + employeeSalary + " in June");
+        System.out.println("The employee " + employeeName + " has a salary of $" + employeeSalary + " in June");
 
         codeScanner.close();
 
