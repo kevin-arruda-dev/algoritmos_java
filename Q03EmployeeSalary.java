@@ -18,7 +18,7 @@ public class Q03EmployeeSalary {
         String employeeName = codeScanner.nextLine();
 
         System.out.println("Enter the salary of the employee: ");
-        Double employeeSalary = codeScanner.nextDouble();
+        double employeeSalary = codeScanner.nextDouble();
 
         System.out.println("Employee Name: " + employeeName);
         System.out.println("Salary: " + employeeSalary);
