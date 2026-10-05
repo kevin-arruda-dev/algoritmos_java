@@ -18,6 +18,8 @@ public class Q02WelcomeMessage {
         String userName = codeScanner.nextLine();
 
         System.out.println("Hello, " + userName + ", it's a pleasure to meet you!");
+        
+        codeScanner.close();
 
     }
 }
