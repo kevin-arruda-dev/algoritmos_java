@@ -17,10 +17,10 @@ public class Q07ThirdAndDouble {
         Scanner codeScanner = new Scanner(System.in);
 
         System.out.println("Enter a value: ");
-        Double userValue = codeScanner.nextDouble();
+        double userValue = codeScanner.nextDouble();
 
-        Double valueDouble = userValue * 2;
-        Double valueThird = userValue / 3;
+        double valueDouble = userValue * 2;
+        double valueThird = userValue / 3;
 
         System.out.println("The double of " + userValue + " is " + valueDouble);
         System.out.println("The third of " + userValue + " is " + valueThird);
