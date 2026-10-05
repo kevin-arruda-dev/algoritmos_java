@@ -24,7 +24,7 @@ public class Q05AverageGrades {
         Double averageGrades = (firstGradeValue + secondGradeValue) / 2;
 
         System.out.println("Grade 1: " + firstGradeValue);
-        System.out.println("Grade 2:  " + secondGradeValue);
+        System.out.println("Grade 2: " + secondGradeValue);
         System.out.println("The average of " + firstGradeValue + " and " + secondGradeValue + " is " + averageGrades);
 
         codeScanner.close();
