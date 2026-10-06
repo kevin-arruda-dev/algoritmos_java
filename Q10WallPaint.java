@@ -20,7 +20,7 @@ public class Q10WallPaint {
         double neededPaint = areaWall / 2;
 
         System.out.printf("The total area of the wall is %.2f square meters%n", areaWall);
-        System.out.printf("The necessary amount of paint is %.2f liters", neededPaint);
+        System.out.printf("The necessary amount of paint is %.2f liters%n", neededPaint);
 
         codeScanner.close();
 
