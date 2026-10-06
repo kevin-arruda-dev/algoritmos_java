@@ -22,7 +22,7 @@ The distance of 185.72m corresponds to:
 import java.util.Scanner;
 
 public class Q08DistanceUnits {
-   public static void main(String[] args) {
+    public static void main(String[] args) {
 
         Scanner codeScanner = new Scanner(System.in);
 
