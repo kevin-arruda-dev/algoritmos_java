@@ -1,4 +1,4 @@
-/* Write an algorithm that reads a given year
+/* Question 21: Write an algorithm that reads a given year
 and displays whether or not it is a LEAP YEAR */
 
 import java.util.Scanner;
